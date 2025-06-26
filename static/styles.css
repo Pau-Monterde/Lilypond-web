@@ -1,0 +1,35 @@
+h1 {
+    width: 50%;
+    margin: auto;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    margin: 10% auto;
+    margin-top: 5%;
+}
+
+div {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+textarea {
+    background-color: #f0f0f0;
+    min-width: 50%;
+    min-height: 290px;
+    max-height: 300px;
+    resize: none;
+    margin: 0;
+    margin-left: 5px;
+}
+
+iframe {
+    background: #000;
+    min-width: 50%; 
+    max-width: 50%;
+    min-height: 300px;
+    max-height: 300px;
+    margin: 0;
+    margin-right: 2px;
+}

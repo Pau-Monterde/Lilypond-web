@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Online Lilypond Playground</h1>
+    <div class="compiler" id="compiler">
+        <div>
+        <textarea id="editor">
+
+\version "2.24.2"
+
+\relative c' {
+    c d e f g
+}
+        </textarea>
+        <iframe src="" frameborder="0" id="visor"></iframe>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
